@@ -1,0 +1,14 @@
+$use-color: #ff0066;
+
+.nav {
+  border: 1px solid $use-color;
+
+  .link {
+    color: $use-color;
+
+    &:hover {
+      background-color: $use-color;
+      color: #ffffff;
+    }
+  }
+}
